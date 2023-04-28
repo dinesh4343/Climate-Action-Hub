@@ -22,7 +22,7 @@
   top: 85px;
   left: 200px;
   font-family: 'Times New Roman', Times, serif; 
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
 }
 .button{
@@ -39,11 +39,11 @@
   flex-direction: column;
   background-color: #f2f2f2;
   
-  width: 200px;
+  width: 180px;
   
 }
 .btn{
-  padding:30px;
+  padding:20px;
   text-decoration: none;
   border-radius: 10%;
 }
