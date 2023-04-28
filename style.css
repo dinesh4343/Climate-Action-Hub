@@ -68,3 +68,14 @@
   background-color: #555;
   color: #fff;
 }
+.quote{
+  position: absolute;
+  padding-left: 100px;
+  padding-right: 1000px;
+  color: #f2f2f2;
+  top: 50%;
+  left: 0%; 
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 50px;
+  font-weight: bold;
+}
