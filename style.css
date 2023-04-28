@@ -13,12 +13,58 @@
 
 .logo{
   position: absolute;
-  top: 0;
-  left: 0;
-  
+  top: 0%;
+  left: 0%; 
+}
+.title{
+  position: absolute;
+  color: aliceblue;
+  top: 85px;
+  left: 200px;
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 50px;
+  font-weight: bold;
+}
+.button{
+  position: absolute;
+  color: aliceblue;
+  top: 85px;
+  right: 100px;
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 30px;
+}
 
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  
+  width: 200px;
+  
+}
+.btn{
+  padding:30px;
+  text-decoration: none;
+  border-radius: 10%;
 }
 
 
+.home {
+  background-color: #555;
+  color: #fff;
+}
 
-      
+.login {
+  background-color: #555;
+  color: #fff;
+}
+
+.search {
+  background-color: #555;
+  color: #fff;
+}
+
+.donate {
+  background-color: #555;
+  color: #fff;
+}
