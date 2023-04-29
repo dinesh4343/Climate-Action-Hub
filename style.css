@@ -10,7 +10,9 @@
   margin: 0%;
   padding: 0%;
 }
-
+body{
+  background-color: black;
+}
 .logo{
   position: absolute;
   top: 0%;
@@ -37,36 +39,34 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  background-color: #f2f2f2;
-  
   width: 180px;
   
 }
 .btn{
-  padding:20px;
+  padding:10px;
   text-decoration: none;
   border-radius: 10%;
 }
 
 
 .home {
-  background-color: #555;
+  background-color: #000;
   color: #fff;
 }
 
 .login {
-  background-color: #555;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 .search {
-  background-color: #555;
+  background-color: #000;
   color: #fff;
 }
 
 .donate {
-  background-color: #555;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 .quote{
   position: absolute;
@@ -80,10 +80,103 @@
   font-size: 40px;
   font-weight: bold;
 }
-.black-footer {
-  background-color: black;
-  color: white;
-  padding: 20px;
+.mail{
+  position: absolute;
+  padding-left:900px;
+  padding-top: 100px;
+  color: #f2f2f2;
+  top: 50%;
+  left: 0%; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-weight: bold;
 }
 
 
+input[type="email"] {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: transparent;
+  color: #333;
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  outline: none;
+}
+input[type="email"]::placeholder {
+  color: #ccc;
+  opacity: 0.5;
+}
+input[type="submit"] {
+            background-color: #4CAF50;
+            border: none;
+              color: #fff;
+              font-size: 20px;
+              font-weight: bold;
+              padding: 10px 20px;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+
+
+.mid{
+    background: #1d5a8a;
+    opacity: 70%;
+    width: 100%;
+}
+.midt{
+  position: absolute;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 50px;
+  color: white;
+  font-weight: bolder;
+  top: 140%;
+  left: 100px;
+  
+}
+.midt-b{
+  color: #000;
+  font-weight: bolder;
+}
+
+
+
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 100px;
+}
+.bold-line {
+  position: absolute;
+  top: 220%;
+  left: 70%;
+  border-left: 3px solid white;
+  height: 40%;
+}
+.footer__social {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer__social-logo {
+  height: 70px;
+  margin-right: 10px;
+}
+
+
+.text-container{
+  padding-left: 400px;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif; 
+  font-size:100%;
+  font-weight: bold;
+}
