@@ -80,3 +80,10 @@
   font-size: 40px;
   font-weight: bold;
 }
+.black-footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+
