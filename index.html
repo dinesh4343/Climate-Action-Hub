@@ -1,71 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Climate Action Hub</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Check Bus Number</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+ 
 </head>
 <body>
-    <img class="sunset"
-        src="img/bg.jpg">
-     <div class="top">
-        <img class="logo"
-        src="img/logo.png ">
-        <p class="title">THE Climate Action Hub</p>
-        <div class="button">
-            <a href="#" class="btn home">Home</a>
-            <a href="#" class="btn login">Login</a>
-            <a href="#" class="btn search">Search</a>
-            <a href="#" class="btn donate">Donate</a>
-        </div>
-        <div class="quote">Get the tools, training, and network to fight 
-            climate change and together build the world we want</div>
-        <div class="mail">
-            <form><label for="email">PEOPLE LIKE YOU ARE USING THEIR VOICES AND EVERYDAY CHOICES TO SOLVE THE CLIMATE CRISIS. JOIN THE MOVEMENT:</label>
-                <br>
-                <input type="email" id="email" name="email" placeholder="example@example.com">
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-        
-     </div>
-     
-    </div>
-    <div class="mid">
-        <img class="mid"
-        src="img/mid.jpg">
-        <div class="midt">
-            
-            <p>"MAKING A DIFFERENCE"</p>
-            <p class="midt-b">is local.</p>
-            <p class="midt-b">is personal.</p>
-            <p class="midt-b">is empowering.</p>
-            <p class="midt-b">starts with people like you</p>
-        </div>
-    
-    </div>    
+    <h1>Check Bus Number</h1>
+    <label for="bus-number">Enter bus number:</label>
+    <input type="text" id="bus-number">
+    <button onclick="checkBusNumber($('#bus-number').val())">Check</button>
+    <p id="message"></p>
 </body>
-<footer class="footer">
-    <div class="footer__social">
-      <a href="#"><img src="img/insta.png" alt="Instagram Logo" class="footer__social-logo"></a>
-      <a href="#"><img src="img/fb.png" alt="Facebook Logo" class="footer__social-logo"></a>
-      <a href="#"><img src="img/twit.png" alt="Twitter Logo" class="footer__social-logo"></a>
-      <a href="#"><img src="img/wp.png" alt="wp Logo" class="footer__social-logo"></a>
-      <div class="line-container\">
-          <hr class="bold-line">
-        <div class="text-container">
-          <p>ABOUT US</p><br>
-          <p>Our Mission</p>
-          <p>Climate and Environmental Justice</p>
-          <p>Climate Justice For All Project Grants</p>
-          <p>Chapters</p>
-          <p>Branches</p>
-          <p>Strategic Partnerships</p>
-        </div>
-      </div>
-      
-    </div>
-  </footer>
 </html>
